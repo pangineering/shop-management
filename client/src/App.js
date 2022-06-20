@@ -8,6 +8,7 @@ import ProductScreen from "./Screens/ProductScreen"
 import WarehouseScreen from "./Screens/WarehouseScreen"
 import ShopScreen from "./Screens/ShopScreen"
 import FinanceScreen from "./Screens/FinanceScreen"
+import SettingScreen from "./Screens/SettingScreen"
 
 import Header from "./Components/Header"
 
@@ -23,6 +24,7 @@ function App() {
             <Route path="/products" element={<ProductScreen />} />
             <Route path="/warehouse" element={<WarehouseScreen />} />
             <Route path="/finance" element={<FinanceScreen />} />
+            <Route path="/setting" element={<SettingScreen />} />
           </Routes>
         </>
       </Router>

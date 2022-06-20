@@ -15,6 +15,7 @@ function Header() {
           <Nav.Link><Link to="/products">My Produicts</Link></Nav.Link>
           <Nav.Link><Link to="/warehouse">My Warehouse</Link></Nav.Link>
           <Nav.Link><Link to="/finance">My Finance</Link></Nav.Link>
+          <Nav.Link><Link to="/setting">Setting</Link></Nav.Link>
         </Nav>
       </Container>
     </Navbar>
